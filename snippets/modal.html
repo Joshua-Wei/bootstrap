@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Modal</title>
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+  <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModal-Label" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+          <h4 class="modal-title" id="myModal-Label">Modal Title</h4>
+        </div>
+        <div class="modal-body">
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus blandit velit urna, sit amet aliquet odio volutpat sit amet. Sed non diam arcu. Ut tellus massa, dignissim eu condimentum in, fermentum ac purus. Maecenas feugiat magna neque, vitae feugiat eros faucibus id. Proin vel imperdiet sapien, id imperdiet orci. Vivamus varius auctor massa iaculis vulputate. Quisque vel diam ac leo lobortis aliquet at eleifend nisi. Praesent at ligula placerat, euismod sem sit amet, vulputate elit.</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Save</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="row">
+      <button type="button" class="btn btn-success col-sm-4 col-sm-offset-4" data-toggle="modal" href="#myModal">Show modal</a>
+    </div>
+  </div>
+</body>
+
+</html>

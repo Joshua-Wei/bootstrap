@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Submit Album</title>
+    <link rel="stylesheet" href="styles/bootstrap.min.css">
+  </head>
+  
+  <body>
+    <div class="container">
+      
+      <!-- A banner with text -->
+      <div class="jumbotron">
+        <h2>Submit Album</h2>
+      </div>
+      
+      <!-- A collapsable region with sections -->
+      <div class="panel-group" id="accordion">
+        
+        <!-- The album section -->
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <h4 class="panel-title">
+              <a data-toggle="collapse" data-parent="#accordion" href="#album">
+                Album Title and Artist
+              </a>
+            </h4>
+          </div>
+          <div id="album" class="panel-collapse collapse in">
+            <div class="panel-body">
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In et nunc elit. Nunc tristique interdum metus, eu ultricies risus viverra id.</p>
+            </div>
+          </div>
+        </div>
+        
+        <!-- The track section -->
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <h4 class="panel-title">
+              <a data-toggle="collapse" data-parent="#accordion" href="#track">
+                 Track Information
+              </a>
+            </h4>
+          </div>
+          <div id="track" class="panel-collapse collapse">
+            <div class="panel-body">
+              <p>Duis risus leo, vulputate eu hendrerit nec, aliquam sit amet eros. Proin at urna sed tortor scelerisque dignissim interdum eget nisl. </p>
+            </div>
+          </div>
+        </div>
+        
+        <!-- The review section -->
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <h4 class="panel-title">
+              <a data-toggle="collapse" data-parent="#accordion" href="#review">
+                 Expert Review
+              </a>
+            </h4>
+          </div>
+          <div id="review" class="panel-collapse collapse">
+            <div class="panel-body">
+              <p>Fusce nisl ligula, pretium ac sagittis nec, vehicula id mi. Cras ultrices quam ut odio consequat iaculis.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    
+    <script src="scripts/jquery-2.1.4.min.js"></script>
+    <script src="scripts/bootstrap.min.js"></script>
+  </body>
+</html>

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Forms</title>
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+  <div class="container">
+    <h2>Forms</h2>
+    <form class="form-horizontal">
+      <div class="form-group">
+        <label for="address" class="control-label col-md-3">Address:</label>
+        <div class="col-md-6">
+          <input type="text" name="address" id="address" class="form-control" />
+        </div>
+      </div>
+    </form>
+
+    <h2>Controls</h2>
+    <form class="form-horizontal">
+      <div class="form-group">
+        <label for="username" class="control-label col-md-3">Username:</label>
+        <div class="col-md-6">
+          <div class="input-group">
+            <div class="input-group-addon">
+              <span class="glyphicon glyphicon-user"></span>
+            </div>
+            <input type="text" class="form-control" name="username" id="username" />
+          </div>
+        </div>
+      </div>
+    </form>
+
+    <h2>Buttons</h2>
+    <form class="form-horizontal">
+      <div class="form-group">
+        <div class="col-md-offset-3 btn-group" data-toggle="buttons">
+          <label class="btn btn-primary">
+            <input type="radio" id="first" name="sample" /> First
+          </label>
+          <label class="btn btn-primary">
+            <input type="radio" id="second" name="sample" /> Second
+          </label>
+        </div>
+      </div>
+      <div class="form-group">
+        <button type="submit" class="btn btn-default col-md-offset-3 col-md-4">Submit form</button>
+      </div>
+    </form>
+  </div>
+</body>
+
+</html>
