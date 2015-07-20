@@ -11,3 +11,15 @@ body {
     color: white;
     text-shadow: black 0.3em 0.3em 0.3em;
 }
+
+.logo-large {
+  width: 200px;
+}
+
+.logo {
+  width: 100px;
+}
+
+.icon {
+  width: 50px;
+}
